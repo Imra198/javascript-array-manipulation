@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manipulating Arrays</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+
+            <h1>JavaScript Array Manipulation</h1>
+                <input type="text" id="elementInput" placeholder="Enter an element">    
+                <br><br>
+
+                <button onclick="addElement()">Push(Add Last)</button>
+                <button onclick="removeLast()">Pop(Remove Last)</button>
+                <button onclick="removeFirst()">Shift(Remove First)</button>
+                <button onclick="addFirst()">Unshift(Add First)</button>
+
+                <br><br>
+                <input type="number" id="removeIndex" placeholder="Enter index to remove">
+                <button onclick="spliceElement()">Splice(Remove at Index)</button>
+
+                <h2>Array Elements:</h2>
+                <div id="arrayDisplay"></div>
+
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+</html>
